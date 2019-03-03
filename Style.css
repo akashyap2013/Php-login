@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courgette';
+}
+
+body{
+    background-image: url("Images/everest_mountain_sky.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(7,6,6,0.44);
+}
+
+.container{
+    width: 50vw;
+    height: 55vh;
+    margin-left: 0%;
+    box-shadow: 30px 30px 150px black;
+}
+.container .div1{
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    color: #333333;
+}
+
+.div1 h1{
+    font-family: 'Berkshire Swash';
+    font-size: 2em;
+    width: 20vw;
+    height: 10vh;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.div1 h3{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.container .div2{
+    background-color: ghostwhite;
+    width: 22.7vw;
+    height: 100%;
+    margin-left: 29vw;
+    display: inline-block;
+    text-align: center;
+}
+.div2 img{
+    width: 10vw;
+    height: 12vh;
+    margin-top: 12%;
+    border-radius: 80px;
+}
+.div2 a{
+    color: #2e2ee2;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.div2 h4{
+    margin-top: 10%;
+    color: #434343;
+}
+.div2 input{
+    display: block;
+    margin-left: 16%;
+    width: 15vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    background-color: ghostwhite;
+    border: 1px solid #b9b7b7;
+    text-align: center;
+}
+.div2 input[placeholder]{
+    font-size: 1em;
+    color: black;
+}
+
+.div2 input[type="submit"]{
+    background-color: #3838e5;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10%;
+}
+.div2 input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.img1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clip: rect(12.6vw,54vw,43.6vw,25vw);
+}
+
+.erroremail , .errorpasswd{
+    position: absolute;
+    top: 0; left: 74%;
+    margin-top: 27.5%;
+    color: #ff3e3e;
+    margin-bottom: 17%;
+}
+
+.errorpasswd{
+    padding-top: 4%;
+}
+
+.wlc{
+    margin-top: 40%;
+    font-size: 1.4em;
+    color: #66afe9;
+    height: 20%;
+    background-color: gainsboro;
+}
+
+
+
+
+
+
+
+
